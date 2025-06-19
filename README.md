@@ -1,3 +1,11 @@
-Este es un proyecto sobre como usar
-git con visual studio code de manear mas sencilla
-y adaptable posible
+### Hola 👋
+
+💡 Actualmente estoy trabajando en Cineplanet  
+🌱 Actualmente estoy aprendiendo git  
+🤝 Busco colaborar en rp  
+🙋 Busco ayuda con ... kube
+💬 Pregúntame sobre ... tareas a largo plazo
+📫 Cómo contactarme: ...  facebook
+👩‍💻 Pronombres: ... zxjose  
+⚡ Dato curioso: ...
+
