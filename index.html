@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <title>Inicio Sesion</title>
+</head>
+<body>
+    <form name="form1" action="../Proyectoweb/validar.php" method="POST">
+        <h1>Iniciar sesión</h1>
+        <label for="usuario" >Usuario:</label>
+        <input type="text" required name="usuario" placeholder="Usuario">
+        <label for="clave">Contraseña:</label>
+        <input type="password" required name="clave" placeholder="Contraseña">        
+        <input type="submit" name="" value="Enviar">
+      </form>
+    <h4>¿No tienes cuenta? <a href="registrar.html">Regístrate aquí</a></h4>
+    <br><br>
+
+    <form name="form3" action="consultar.php" method="post">
+        <h1>Consulta los usuarios de la BBDD</h1>
+        <input type="submit" name="submit" value="Consulta">
+    </form>
+    <br><br>
+
+    <form name="form4" action="../Proyectoweb/consultar2.php" method="post">
+        <h1>Consulta los datos de un usuario</h1>
+        <label for="usuario">Usuario</label>
+        <input type="text" requiere name="usuario" placeholder="Usuario">
+        <input type="submit" name="" value="Consultar">
+    </form>
+    <br><br>
+
+    <form name="form5" action="../Proyectoweb/Eliminar.php" method="post">
+        <h1>Quieres date de baja:</h1>
+        <label for="usuario">Nombre del usuario a dar de baja:</label>
+        <input type="text" required name="usuario" placeholder="Usuario Eliminar">
+        <label for="clave">Contraseña</label>
+        <input type="password" required name="clave" placeholder="Contraseña">
+        <input type="submit" name="submit" value="Eliminar">
+    </form>
+
+<br><br>
+<form name="form5" action="../Proyectoweb/Eliminar2.php" method="post">
+    <h1>Quieres date de baja:</h1>
+    <label for="usuario">Nombre del usuario a dar de baja:</label>
+    <input type="text" required name="usuario" placeholder="Usuario Eliminar">
+    <label for="clave">Contraseña</label>
+    <input type="password" required name="clave" placeholder="Contraseña">
+    <label for="clave">Repite Contraseña</label>
+    <input type="password" required name="clave2" placeholder="Repite Contraseña">
+    <input type="submit" name="submit" value="Eliminar">
+</form>
+<br><a href="tablaDatos.php">pica para ver todos los datos actializado</a><br>
+</body>
+</html>
